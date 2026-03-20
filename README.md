@@ -18,11 +18,11 @@ We use a **pretrained ResNet-50** convolutional network (ImageNet weights) as th
 
 
 ## Results & Visualization  
-<img src="https://c8.alamy.com/comp/2PJYGTR/the-starry-night-vincent-van-gogh-2PJYGTR.jpg" height="300"> *Starry Night* (1889) by Van Gogh【14†L134-L136】 – The model finds paintings with similar swirling skies and color (e.g. other Van Gogh or Post-Impressionist works). It correctly identifies the style, retrieving paintings with comparable blue-yellow contrast.  
+<img src="https://c8.alamy.com/comp/2PJYGTR/the-starry-night-vincent-van-gogh-2PJYGTR.jpg" height="200" widtht="200"> *Starry Night* (1889) by Van Gogh【14†L134-L136】 – The model finds paintings with similar swirling skies and color (e.g. other Van Gogh or Post-Impressionist works). It correctly identifies the style, retrieving paintings with comparable blue-yellow contrast.  
 
-<img src="https://media.craiyon.com/2025-07-22/LVsj7FAVTz-3IX_ow4qaIg.webp" height="300"> *Mona Lisa* (1503–1506) by Leonardo da Vinci【18†L127-L129】 – As a famous Renaissance portrait, the model retrieves other 16th-century portraits and paintings with similar muted palette and composition. The example shows how it captures facial orientation and color tones to find matches.  
+<img src="https://media.craiyon.com/2025-07-22/LVsj7FAVTz-3IX_ow4qaIg.webp" height="200" width="200"> *Mona Lisa* (1503–1506) by Leonardo da Vinci【18†L127-L129】 – As a famous Renaissance portrait, the model retrieves other 16th-century portraits and paintings with similar muted palette and composition. The example shows how it captures facial orientation and color tones to find matches.  
 
-<img src="https://tse4.mm.bing.net/th/id/OIP.MfaNZWamZCjHXhC7qFsOlAHaKm?rs=1&pid=ImgDetMain&o=7&rm=3" height="300"> *Girl with a Pearl Earring* (ca.1665) by Vermeer【21†L127-L130】 – A Baroque-era portrait. The model retrieves other Dutch Golden Age portraits with similar lighting and composition. This demonstrates the encoder’s ability to capture fine details like background darkness and the subject’s gaze.
+<img src="https://tse4.mm.bing.net/th/id/OIP.MfaNZWamZCjHXhC7qFsOlAHaKm?rs=1&pid=ImgDetMain&o=7&rm=3" height="200" width="200"> *Girl with a Pearl Earring* (ca.1665) by Vermeer【21†L127-L130】 – A Baroque-era portrait. The model retrieves other Dutch Golden Age portraits with similar lighting and composition. This demonstrates the encoder’s ability to capture fine details like background darkness and the subject’s gaze.
 
 In each of the above examples, the cosine similarity (or L2 distance) between embeddings is used to rank images.
 
